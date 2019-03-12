@@ -8,7 +8,7 @@ module.exports = {
         {
             name: 'prod eth btc',
             script: 'bin/www.js',
-            cwd: '/{{pathToProject}}/ico-monitoring',
+            cwd: '/c/Users/lilp13799/AppData/Roaming/MetaQuotes/Terminal/2E8DC23981084565FA3E19C061F586B2/MQL4/parseLog/',
             env: {
                 NODE_ENV: 'production',
                 PORT    : '3333',
@@ -17,11 +17,6 @@ module.exports = {
                 LINK_SELL : '34.76.252.86/sell',
                 LINK_BUY  : '34.76.252.86/buy',
                 PATH      : '../Logs',
-
-                HOST      : 'localhost',
-                USER      : 'root',
-                PASSWORD  : 'root',
-                DATABASE  : 'db',
             },
             exec_mode: "cluster",
             instances: 1,
