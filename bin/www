@@ -89,15 +89,27 @@ function onListening() {
   debug('Listening on ' + bind);
 }
 
-var fs = require('fs');
-var _ = require('lodash');
+const fs = require('fs');
+const _ = require('lodash');
+const moment = require('moment');
+const axios = require('axios');
 const path = 'test.txt';
 
 let prev_str = readLastBlock();
 let next_str = '';
+let date_prev = moment().format('YYYYMMDD');
+let date_now = moment().format('YYYYMMDD');
 
 (() => {
-  console.log("Watching test.txt");
+    setInterval(()=> {
+        date_now = moment().format('YYYYMMDD');
+        if (date_now !== date_prev) {
+            date_prev = date_now;
+            prev_str = readLastBlock();
+        }
+    }, 1000 * 60);
+
+  console.log("Watching test.txt" + date);
 
   fs.watchFile(path, function(curr,prev) {
     console.log("current mtime: " +curr.mtime);
@@ -111,11 +123,25 @@ let next_str = '';
 
         let diff = _.xor(arr_prev_str, next_prev_str).filter(item => item !== '');
         prev_str = readLastBlock();
-        console.log(diff);
+
+        let reg = new RegExp('Connors RSI Alerts v1_1');
+
+        diff.map(async (item) => {
+          if (reg.test(item)) {
+              let reg_sell = new RegExp('sell');
+              let reg_buy = new RegExp('buy');
+              if (reg_sell.test(item.toLowerCase())) {
+                  await axios.get(process.env.LINK_SELL);
+              }
+              if (reg_buy.test(item.toLowerCase())) {
+                  await axios.get(process.env.LINK_BUY);
+              }
+          }
+        })
     }
   });
 })();
 
 function readLastBlock() {
-  return fs.readFileSync(path, 'utf8');
+  return fs.readFileSync(process.env.PATH + '/' + date_now, 'utf8');
 }

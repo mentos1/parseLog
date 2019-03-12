@@ -1,10 +1,98 @@
-12
-13
-14
-15
-
-16
-17
-18
-19
-20
+0	00:00:13.462	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: SELL SIGNAL
+0	00:30:00.517	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: BUY SIGNAL
+0	00:45:05.408	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: SELL SIGNAL
+0	00:50:02.540	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: BUY SIGNAL
+0	01:00:06.472	MA2_Signal_ver2 BTCUSD,H1: Alert: BTCUSD 60M   Achtung SELL
+0	01:15:01.379	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: SELL SIGNAL
+0	01:35:01.153	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: BUY SIGNAL
+0	02:21:09.276	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: SELL SIGNAL
+0	02:30:00.376	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: BUY SIGNAL
+0	02:45:06.925	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: SELL SIGNAL
+0	02:50:03.784	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: BUY SIGNAL
+0	03:15:02.011	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: SELL SIGNAL
+0	03:40:15.237	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: BUY SIGNAL
+0	04:25:05.005	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: SELL SIGNAL
+0	05:03:25.078	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: BUY SIGNAL
+0	05:10:41.095	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: SELL SIGNAL
+0	05:30:01.931	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: BUY SIGNAL
+0	06:46:42.647	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: SELL SIGNAL
+0	08:00:05.258	MA2_Signal_ver2 BTCUSD,H1: Alert: BTCUSD 60M  Achtung BUY
+0	09:05:01.685	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: BUY SIGNAL
+0	09:30:07.761	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: SELL SIGNAL
+0	09:50:33.929	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: BUY SIGNAL
+0	10:05:12.748	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: SELL SIGNAL
+0	10:35:01.881	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: BUY SIGNAL
+0	10:40:07.548	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: SELL SIGNAL
+0	11:07:17.765	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: BUY SIGNAL
+0	11:10:21.190	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: SELL SIGNAL
+0	11:20:26.160	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: BUY SIGNAL
+0	11:35:35.615	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: SELL SIGNAL
+0	11:45:03.438	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: BUY SIGNAL
+0	12:10:05.931	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: SELL SIGNAL
+0	13:10:09.488	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: BUY SIGNAL
+0	13:40:08.363	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: SELL SIGNAL
+0	13:47:38.847	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: BUY SIGNAL
+0	13:55:04.127	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: SELL SIGNAL
+0	14:35:08.074	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: BUY SIGNAL
+0	14:55:09.428	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: SELL SIGNAL
+0	15:20:02.453	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: BUY SIGNAL
+0	16:00:01.550	MA2_Signal_ver2 BTCUSD,H1: Alert: BTCUSD 60M   Achtung SELL
+0	16:15:00.653	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: SELL SIGNAL
+0	16:40:14.572	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: BUY SIGNAL
+0	16:50:01.723	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: SELL SIGNAL
+0	17:00:49.017	MA2_Signal_ver2 BTCUSD,H1: Alert: BTCUSD 60M  Achtung BUY
+0	17:44:47.404	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: BUY SIGNAL
+0	18:55:31.227	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: SELL SIGNAL
+0	19:00:02.873	MA2_Signal_ver2 BTCUSD,H1: Alert: BTCUSD 60M   Achtung SELL
+0	19:15:01.160	Connors RSI Alerts v1_1 BTCUSD,M5: Alert: ConnorsRSI Alert on BTCUSD, period M5: BUY SIGNAL
+0	19:37:56.045	Connors RSI Alerts v1_1 BTCUSD,M5: uninit reason 3
+0	19:37:58.768	Connors RSI Alerts v1_1 BTCUSD,H1: initialized
+0	19:39:54.233	Expert Market\BullsBears Action BTCUSD,H1: loaded successfully
+0	19:39:58.087	BullsBears Action BTCUSD,H1 inputs: Tradeparameters=++++++++++++++++++++++++++++++++++; Lots=0.01; LotManagement=false; MaximumRisk=0.001; DecreaseFactor=1; TrailingStop=20.0; Stop_Loss=40; Take_Profit=100; MagicNumber=1234; BullsbearsFilter=++++++++++++++++++++++++++++++++++; power=50; AveragingPeriod=13; BBAppliedPrice=0; BBShift=0; CrossoverFilter=++++++++++++++++++++++++++++++++++; Crossover_Filter=false; E_Fast_MA_= ; E_Fast_MA=25; E_MAShiftFast=0; E_MAFast=0; E_MAAppllyFast=5; E_Slow_MA_= ; E_Slow_MA=100; E_MAShiftSlow=0; E_MASlow=0; E_MAAppllySlow=5; CCIFilter=++++++++++++++++++++++++++++++++++; CCI_Filter=false; CCI_Level=150; CCI_AveragingPeriod=14; CCI_AppliedPrice=5; CCI_Shift=0; RSIFilter=++++++++++++++++++++++++++++++++++; RSI_Filter=false; RSI_Overbought_Level=70; RSI_Oversold_Level=30; RSI_AveragingPeriod=14; RSI_AppliedPrice=0; RSI_Shift=0; StochasticFilter=++++++++++++++++++++++++++++++++++; Stochastic_Filter=false; Stochastic_Overbought_Level=70; Stochastic_Oversold_Level=30; per_K=5; per_D=3; slow=3; Stochastic_Method=0;
+0	19:39:58.153	BullsBears Action BTCUSD,H1: initialized
+0	19:40:06.077	BullsBears Action BTCUSD,H1: Not enough money!
+0	19:40:09.742	BullsBears Action BTCUSD,H1: Not enough money!
+0	19:40:24.509	BullsBears Action BTCUSD,H1: Not enough money!
+0	19:40:28.095	BullsBears Action BTCUSD,H1: Not enough money!
+0	19:40:28.586	BullsBears Action BTCUSD,H1: Not enough money!
+0	19:40:29.763	BullsBears Action BTCUSD,H1: Not enough money!
+0	19:40:49.484	BullsBears Action BTCUSD,H1: Not enough money!
+0	19:41:19.596	BullsBears Action BTCUSD,H1: uninit reason 5
+0	19:41:19.612	BullsBears Action BTCUSD,H1: initialized
+0	19:41:19.639	BullsBears Action BTCUSD,H1 inputs: Tradeparameters=++++++++++++++++++++++++++++++++++; Lots=0.01; LotManagement=false; MaximumRisk=0.001; DecreaseFactor=1; TrailingStop=20.0; Stop_Loss=40; Take_Profit=100; MagicNumber=1234; BullsbearsFilter=++++++++++++++++++++++++++++++++++; power=50; AveragingPeriod=13; BBAppliedPrice=0; BBShift=0; CrossoverFilter=++++++++++++++++++++++++++++++++++; Crossover_Filter=false; E_Fast_MA_= ; E_Fast_MA=25; E_MAShiftFast=0; E_MAFast=0; E_MAAppllyFast=5; E_Slow_MA_= ; E_Slow_MA=100; E_MAShiftSlow=0; E_MASlow=0; E_MAAppllySlow=5; CCIFilter=++++++++++++++++++++++++++++++++++; CCI_Filter=false; CCI_Level=150; CCI_AveragingPeriod=14; CCI_AppliedPrice=5; CCI_Shift=0; RSIFilter=++++++++++++++++++++++++++++++++++; RSI_Filter=true; RSI_Overbought_Level=80; RSI_Oversold_Level=19; RSI_AveragingPeriod=14; RSI_AppliedPrice=0; RSI_Shift=0; StochasticFilter=++++++++++++++++++++++++++++++++++; Stochastic_Filter=false; Stochastic_Overbought_Level=70; Stochastic_Oversold_Level=30; per_K=5; per_D=3; slow=3; Stochastic_Method=0;
+0	19:41:26.146	BullsBears Action BTCUSD,H1: uninit reason 3
+0	19:41:27.063	BullsBears Action BTCUSD,H1: initialized
+0	19:41:49.319	BullsBears Action BTCUSD,H1: Not enough money!
+0	19:41:52.010	BullsBears Action BTCUSD,H1: Not enough money!
+0	19:41:55.242	BullsBears Action BTCUSD,H1: Not enough money!
+0	19:41:55.497	MA2_Signal_ver2 BTCUSD,H1: uninit reason 9
+0	19:41:55.497	Connors RSI Alerts v1_1 BTCUSD,H1: uninit reason 9
+0	19:41:55.499	BullsBears Action BTCUSD,H1: uninit reason 9
+0	19:41:55.642	Custom indicator MA2_Signal_ver2 BTCUSD,H1: removed
+0	19:41:55.648	Custom indicator Connors RSI Alerts v1_1 BTCUSD,H1: removed
+0	19:41:55.655	Expert BullsBears Action BTCUSD,H1: removed
+0	19:50:56.088	Compiling 'Gap_Expert_v01_1 ??????????'
+0	19:51:01.943	Custom indicator MA2_Signal_ver2 BTCUSD,H1: loaded successfully
+0	19:51:01.967	MA2_Signal_ver2 BTCUSD,H1: initialized
+0	19:51:01.970	MA2_Signal_ver2 BTCUSD,H1: Alert: BTCUSD 60M   Achtung SELL
+0	19:51:02.001	Custom indicator Connors RSI Alerts v1_1 BTCUSD,H1: loaded successfully
+0	19:51:02.032	Connors RSI Alerts v1_1 BTCUSD,H1: initialized
+0	19:51:02.096	Expert Market\BullsBears Action BTCUSD,H1: loaded successfully
+0	19:51:02.096	BullsBears Action BTCUSD,H1 inputs: Tradeparameters=++++++++++++++++++++++++++++++++++; Lots=0.01; LotManagement=false; MaximumRisk=0.001; DecreaseFactor=1; TrailingStop=20.0; Stop_Loss=40; Take_Profit=100; MagicNumber=1234; BullsbearsFilter=++++++++++++++++++++++++++++++++++; power=50; AveragingPeriod=13; BBAppliedPrice=0; BBShift=0; CrossoverFilter=++++++++++++++++++++++++++++++++++; Crossover_Filter=false; E_Fast_MA_= ; E_Fast_MA=25; E_MAShiftFast=0; E_MAFast=0; E_MAAppllyFast=5; E_Slow_MA_= ; E_Slow_MA=100; E_MAShiftSlow=0; E_MASlow=0; E_MAAppllySlow=5; CCIFilter=++++++++++++++++++++++++++++++++++; CCI_Filter=false; CCI_Level=150; CCI_AveragingPeriod=14; CCI_AppliedPrice=5; CCI_Shift=0; RSIFilter=++++++++++++++++++++++++++++++++++; RSI_Filter=true; RSI_Overbought_Level=80; RSI_Oversold_Level=19; RSI_AveragingPeriod=14; RSI_AppliedPrice=0; RSI_Shift=0; StochasticFilter=++++++++++++++++++++++++++++++++++; Stochastic_Filter=false; Stochastic_Overbought_Level=70; Stochastic_Oversold_Level=30; per_K=5; per_D=3; slow=3; Stochastic_Method=0;
+0	19:51:11.389	BullsBears Action BTCUSD,H1: initialized
+0	19:51:28.865	Custom indicator Connors RSI Alerts v1_1 BTCUSD,H1: loaded successfully
+0	19:51:32.701	Connors RSI Alerts v1_1 BTCUSD,H1: initialized
+0	19:51:43.916	Connors RSI Alerts v1_1 BTCUSD,H1: uninit reason 4
+0	19:51:43.923	Custom indicator Connors RSI Alerts v1_1 BTCUSD,H1: removed
+0	19:51:46.065	MA2_Signal_ver2 BTCUSD,H1: uninit reason 4
+0	19:51:46.072	Custom indicator MA2_Signal_ver2 BTCUSD,H1: removed
+0	19:51:54.772	Custom indicator Connors RSI Alerts v1_1 BTCUSD,H1: loaded successfully
+0	19:52:20.866	Connors RSI Alerts v1_1 BTCUSD,H1: initialized
+0	19:52:43.896	Connors RSI Alerts v1_1 BTCUSD,H1: uninit reason 4
+0	19:52:43.897	Connors RSI Alerts v1_1 BTCUSD,H1: uninit reason 4
+0	19:52:43.900	BullsBears Action BTCUSD,H1: uninit reason 4
+0	19:52:43.905	Expert BullsBears Action BTCUSD,H1: removed
+0	19:52:43.909	Custom indicator Connors RSI Alerts v1_1 BTCUSD,H1: removed
+0	19:52:43.911	Custom indicator Connors RSI Alerts v1_1 BTCUSD,H1: removed
+0	19:52:49.526	Custom indicator Connors RSI Alerts v1_1 BTCUSD,H1: loaded successfully
+0	19:53:11.564	Connors RSI Alerts v1_1 BTCUSD,H1: initialized
