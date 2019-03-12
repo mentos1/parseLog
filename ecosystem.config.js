@@ -6,8 +6,8 @@ module.exports = {
     apps: [
         // First application
         {
-            name: 'prod eth btc',
-            script: 'bin/www.js',
+            name: 'Connors RSI',
+            script: 'bin/www',
             cwd: '/Users/lilp13799/AppData/Roaming/MetaQuotes/Terminal/2E8DC23981084565FA3E19C061F586B2/MQL4/parseLog/',
             env: {
                 NODE_ENV: 'production',
