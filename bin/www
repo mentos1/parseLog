@@ -143,5 +143,9 @@ let date_now = moment().format('YYYYMMDD');
 })();
 
 function readLastBlock() {
-  return fs.readFileSync(process.env.PATH + '/' + date_now, 'utf8');
+    if (date_now){
+        return fs.readFileSync(process.env.PATH + '/' + date_now, 'utf8');
+    } else {
+        return '';
+    }
 }
