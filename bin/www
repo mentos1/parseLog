@@ -114,7 +114,7 @@ let prev_str = readLastBlock();
 })();
 
 function readLastBlock() {
-    let jsonPath = path.join(__dirname, '..', 'Logs', '' + date_now);
+    let jsonPath = path.join(__dirname, '..', '../Logs', '' + date_now);
     return fs.readFileSync(jsonPath, 'utf8');
 
 }
@@ -152,7 +152,7 @@ function cBack(curr, prev) {
 
 function watch() {
     console.log('Watch ' + date_now);
-    let jsonPath = path.join(__dirname, '..', 'Logs', '' + date_now);
+    let jsonPath = path.join(__dirname, '..', '../Logs', '' + date_now);
 
     fs.watchFile(jsonPath, cBack);
 
