@@ -95,10 +95,10 @@ const moment = require('moment');
 const axios = require('axios');
 const path = 'test.txt';
 
-let prev_str = readLastBlock();
 let next_str = '';
 let date_prev = moment().format('YYYYMMDD');
 let date_now = moment().format('YYYYMMDD');
+let prev_str = readLastBlock();
 
 (() => {
     setInterval(()=> {
