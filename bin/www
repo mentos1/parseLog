@@ -110,7 +110,9 @@ let prev_str = readLastBlock();
     }, 1000 * 60);
 
     watch();
-    axios.get(process.env.LINK_SELL + '/init');
+    axios.get(process.env.LINK_SELL).then(() => {
+        console.log('init send');
+    });
 })();
 
 function readLastBlock() {
