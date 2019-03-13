@@ -34,19 +34,19 @@ server.on('listening', onListening);
  */
 
 function normalizePort(val) {
-  var port = parseInt(val, 10);
+    var port = parseInt(val, 10);
 
-  if (isNaN(port)) {
-    // named pipe
-    return val;
-  }
+    if (isNaN(port)) {
+        // named pipe
+        return val;
+    }
 
-  if (port >= 0) {
-    // port number
-    return port;
-  }
+    if (port >= 0) {
+        // port number
+        return port;
+    }
 
-  return false;
+    return false;
 }
 
 /**
@@ -54,27 +54,27 @@ function normalizePort(val) {
  */
 
 function onError(error) {
-  if (error.syscall !== 'listen') {
-    throw error;
-  }
+    if (error.syscall !== 'listen') {
+        throw error;
+    }
 
-  var bind = typeof port === 'string'
-    ? 'Pipe ' + port
-    : 'Port ' + port;
+    var bind = typeof port === 'string'
+        ? 'Pipe ' + port
+        : 'Port ' + port;
 
-  // handle specific listen errors with friendly messages
-  switch (error.code) {
-    case 'EACCES':
-      console.error(bind + ' requires elevated privileges');
-      process.exit(1);
-      break;
-    case 'EADDRINUSE':
-      console.error(bind + ' is already in use');
-      process.exit(1);
-      break;
-    default:
-      throw error;
-  }
+    // handle specific listen errors with friendly messages
+    switch (error.code) {
+        case 'EACCES':
+            console.error(bind + ' requires elevated privileges');
+            process.exit(1);
+            break;
+        case 'EADDRINUSE':
+            console.error(bind + ' is already in use');
+            process.exit(1);
+            break;
+        default:
+            throw error;
+    }
 }
 
 /**
@@ -82,11 +82,11 @@ function onError(error) {
  */
 
 function onListening() {
-  var addr = server.address();
-  var bind = typeof addr === 'string'
-    ? 'pipe ' + addr
-    : 'port ' + addr.port;
-  debug('Listening on ' + bind);
+    var addr = server.address();
+    var bind = typeof addr === 'string'
+        ? 'pipe ' + addr
+        : 'port ' + addr.port;
+    debug('Listening on ' + bind);
 }
 
 const fs = require('fs');
@@ -95,27 +95,35 @@ const moment = require('moment');
 const axios = require('axios');
 const path = 'test.txt';
 
-let next_str = '';
 let date_prev = moment().format('YYYYMMDD');
 let date_now = moment().format('YYYYMMDD');
 let prev_str = readLastBlock();
 
 (() => {
-    setInterval(()=> {
+    setInterval(() => {
         date_now = moment().format('YYYYMMDD');
         if (date_now !== date_prev) {
             date_prev = date_now;
             prev_str = readLastBlock();
+            watch();
         }
     }, 1000 * 60);
 
-  console.log("Watching test.txt" + date);
+    watch()
 
-  fs.watchFile(path, function(curr,prev) {
-    console.log("current mtime: " +curr.mtime);
-    console.log("previous mtime: "+prev.mtime);
+})();
+
+function readLastBlock() {
+    let jsonPath = path.join(__dirname, '..', 'Logs', '' + date_now);
+    return fs.readFileSync(jsonPath, 'utf8');
+
+}
+
+function cBack(curr, prev) {
+    console.log("current mtime: " + curr.mtime);
+    console.log("previous mtime: " + prev.mtime);
     if (curr.mtime.getTime() === prev.mtime.getTime()) {
-      console.log("mtime equal");
+        console.log("mtime equal");
     } else {
         console.log("mtime not equal");
         let arr_prev_str = prev_str.split('\r\n');
@@ -127,25 +135,25 @@ let prev_str = readLastBlock();
         let reg = new RegExp('Connors RSI Alerts v1_1');
 
         diff.map(async (item) => {
-          if (reg.test(item)) {
-              let reg_sell = new RegExp('sell');
-              let reg_buy = new RegExp('buy');
-              if (reg_sell.test(item.toLowerCase())) {
-                  await axios.get(process.env.LINK_SELL);
-              }
-              if (reg_buy.test(item.toLowerCase())) {
-                  await axios.get(process.env.LINK_BUY);
-              }
-          }
+            if (reg.test(item)) {
+                let reg_sell = new RegExp('sell');
+                let reg_buy = new RegExp('buy');
+                if (reg_sell.test(item.toLowerCase())) {
+                    await axios.get(process.env.LINK_SELL);
+                }
+                if (reg_buy.test(item.toLowerCase())) {
+                    await axios.get(process.env.LINK_BUY);
+                }
+            }
         })
     }
-  });
-})();
 
-function readLastBlock() {
-    if (date_now){
-        return fs.readFileSync(process.env.PATH + '/' + date_now, 'utf8');
-    } else {
-        return '';
-    }
+}
+
+function watch() {
+    console.log('Watch ' + date_now);
+    let jsonPath = path.join(__dirname, '..', 'Logs', '' + date_now);
+
+    fs.watchFile(jsonPath, cBack);
+
 }
