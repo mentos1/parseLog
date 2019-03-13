@@ -115,7 +115,11 @@ let prev_str = readLastBlock();
 
 function readLastBlock() {
     let jsonPath = path.join(__dirname, '..', '../Logs', '' + date_now + '.log');
-    return fs.readFileSync(jsonPath, 'utf8');
+    if (fs.existsSync(jsonPath)) {
+        return fs.readFileSync(jsonPath, 'utf8');
+    } else {
+        return '';
+    }
 
 }
 
@@ -140,9 +144,11 @@ function cBack(curr, prev) {
                 let reg_buy = new RegExp('buy');
                 if (reg_sell.test(item.toLowerCase())) {
                     await axios.get(process.env.LINK_SELL);
+                    console.log('send sell');
                 }
                 if (reg_buy.test(item.toLowerCase())) {
                     await axios.get(process.env.LINK_BUY);
+                    console.log('send buy')
                 }
             }
         })
@@ -154,6 +160,10 @@ function watch() {
     console.log('Watch ' + date_now);
     let jsonPath = path.join(__dirname, '..', '../Logs', '' + date_now + '.log');
 
-    fs.watchFile(jsonPath, cBack);
+    if (fs.existsSync(jsonPath)) {
+        fs.watchFile(jsonPath, cBack);
+    } else {
+        setTimeout(watch, 1000 * 60 * 5)
+    }
 
 }
