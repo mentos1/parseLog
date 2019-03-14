@@ -102,9 +102,11 @@ let prev_str = readLastBlock();
 (() => {
     setInterval(() => {
         date_now = moment().format('YYYYMMDD');
+        console.log(date_now.toString() !== date_prev.toString(), date_now.toString(), date_prev.toString());
         if (date_now.toString() !== date_prev.toString()) {
             date_prev = date_now;
             prev_str = readLastBlock();
+            unwatch();
             watch();
         }
     }, 1000 * 60);
@@ -164,6 +166,19 @@ function watch() {
 
     if (fs.existsSync(jsonPath)) {
         fs.watchFile(jsonPath, cBack);
+    } else {
+        setTimeout(watch, 1000 * 60 * 5)
+    }
+
+}
+
+
+function unwatch() {
+    console.log('UnWatch ' + date_now);
+    let jsonPath = path.join(__dirname, '..', '../Logs', '' + date_prev + '.log');
+
+    if (fs.existsSync(jsonPath)) {
+        fs.unwatchFile(jsonPath);
     } else {
         setTimeout(watch, 1000 * 60 * 5)
     }
