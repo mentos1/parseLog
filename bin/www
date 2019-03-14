@@ -146,13 +146,17 @@ function cBack(curr, prev) {
             if (reg.test(item)) {
                 let reg_sell = new RegExp('sell');
                 let reg_buy = new RegExp('buy');
+                console.log('try send');
+
                 if (reg_sell.test(item.toLowerCase())) {
-                    await axios.get(process.env.LINK_SELL);
-                    console.log('send sell');
+                    axios.get(process.env.LINK_SELL).then(() => {
+                        console.log('send sell');
+                    });
                 }
                 if (reg_buy.test(item.toLowerCase())) {
-                    await axios.get(process.env.LINK_BUY);
-                    console.log('send buy')
+                    axios.get(process.env.LINK_BUY).then(() => {
+                        console.log('send buy');
+                    });
                 }
             }
         })
