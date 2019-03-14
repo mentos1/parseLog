@@ -102,7 +102,7 @@ let prev_str = readLastBlock();
 (() => {
     setInterval(() => {
         date_now = moment().format('YYYYMMDD');
-        console.log(date_now.toString() !== date_prev.toString(), date_now.toString(), date_prev.toString());
+
         if (date_now.toString() !== date_prev.toString()) {
             date_prev = date_now;
             prev_str = readLastBlock();
